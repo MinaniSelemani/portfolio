@@ -1,121 +1,47 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio - Selemani</title>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
 
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-h1, h2 {
-    margin: 20px;
-    color: #333;
-}
-
-main {
-    padding: 20px;
-}
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-form {
-            width: 40%;
-            display: flex;
-            flex-direction: column; 
-            align-items: center;
-            display: flex;
-            justify-content: center; 
-        }
-.input-group {
-            width: 100%;
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        
-
-    </style>
-</head>
-<body>
+  <body>
     <header>
-        <h1>Contact</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="cv.html">Curriculum Vitae (CV)</a></li>
-                <li><a href="ervaring.html">Ervaring</a></li>
-                <li><a href="hobby.html">Hobby's/Interesses</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <h1>Contact</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="cv.html">Curriculum Vitae (CV)</a></li>
+          <li><a href="ervaring.html">Ervaring</a></li>
+          <li><a href="hobby.html">Hobby's/Interesses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <h2>Contacteer mij</h2>
-        <form action="#" method="POST">
-            <div class="input-group">
-            <label for="naam">Naam:</label>
-            <input type="text" id="naam" name="naam" required>
-            </div>
-            <div class="input-group">
-            <label for="email">E-mailadres:</label>
-            <input type="email" id="email" name="email" required>
-            </div>
-            <div class="input-group">
-            <label for="onderwerp">Onderwerp:</label>
-            <input type="text" id="onderwerp" name="onderwerp" required>
-            </div>
-            <div class="input-group">
-            <label for="vraag">Uw vraag:</label>
-            <textarea id="vraag" name="vraag" required></textarea>
-            </div>
-            <input type="submit" value="Verstuur">
-        </form>
+      <h2>Contacteer mij</h2>
+      <form action="#" method="POST">
+        <div class="input-group">
+          <label for="naam">Naam:</label>
+          <input type="text" id="naam" name="naam" required />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mailadres:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <label for="onderwerp">Onderwerp:</label>
+          <input type="text" id="onderwerp" name="onderwerp" required />
+        </div>
+        <div class="input-group">
+          <label for="vraag">Uw vraag:</label>
+          <textarea id="vraag" name="vraag" required></textarea>
+        </div>
+        <input type="submit" value="Verstuur" />
+      </form>
     </main>
-</body>
+  </body>
 </html>
